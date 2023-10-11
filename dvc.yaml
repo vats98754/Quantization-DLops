@@ -1,0 +1,15 @@
+
+stages:
+  train:
+    cmd: python model/train.py
+    deps:
+      - model/train.py
+    outs:
+      - model.pth
+
+  quantize:
+    cmd: python model/quantize.py
+    deps:
+      - model/quantize.py
+    outs:
+      - quantized_model.pth
