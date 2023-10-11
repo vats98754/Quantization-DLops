@@ -1,4 +1,4 @@
-# MLOps Deep Learning Project with Quantization
+# Object Detection using Quantization and DLOps
 
 This project demonstrates an end-to-end MLOps setup for a deep learning model, focusing on quantization. We utilize GitHub Actions for CI/CD, MLflow for model monitoring, and DVC for data & model versioning.
 
